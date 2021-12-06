@@ -22,6 +22,30 @@
 
                 switch (choice)
                 {
+                    case 0:{
+                        power = false;
+                        break;
+                    }
+                    case 1:{
+                        Console.Clear();
+                        break;
+                    }
+                    case 2:{
+                        Console.Clear();
+                        break;
+                    }
+                    case 3:{
+                        Console.Clear();
+                        break;
+                    }
+                    case 4:{
+                        Console.Clear();
+                        break;
+                    }
+                    case 5:{
+                        Console.Clear();
+                        break;
+                    }
                     default:{
                         Console.Clear();
                         Console.WriteLine("Olan seçeneklerin dışında bir veri giridniz. \n");
