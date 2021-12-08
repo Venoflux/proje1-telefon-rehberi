@@ -12,5 +12,7 @@ namespace proje1_telefon_rehberi
             this.Soyad = soyad;
             this.Numara = numara;
         }
+
+        
     }
 }

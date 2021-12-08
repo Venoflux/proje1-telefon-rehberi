@@ -28,6 +28,7 @@
                     }
                     case 1:{
                         Console.Clear();
+                        Choice.NumaraEkle();
                         break;
                     }
                     case 2:{
