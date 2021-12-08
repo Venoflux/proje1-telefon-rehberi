@@ -23,7 +23,7 @@ namespace proje1_telefon_rehberi
 
             Person yenikullanıcı = new Person(ad, soyisim, numara);
             personList.Add(yenikullanıcı);
-            personList.Sort((x, y) => string.Compare(x.Ad, y.Ad));
+            personList.OrderBy(x => x.Ad).ThenBy(x => x.Soyad);
 
             Console.WriteLine("Yeni kullanıcı başarıyla eklendi. ");
             Console.ReadKey();
