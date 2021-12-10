@@ -33,10 +33,12 @@
                     }
                     case 2:{
                         Console.Clear();
+                        Choice.NumaraKaldir();
                         break;
                     }
                     case 3:{
                         Console.Clear();
+                        Choice.NumaraDegistir();
                         break;
                     }
                     case 4:{
