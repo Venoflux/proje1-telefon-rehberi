@@ -43,10 +43,12 @@
                     }
                     case 4:{
                         Console.Clear();
+                        Choice.NumaraListele();
                         break;
                     }
                     case 5:{
                         Console.Clear();
+                        Choice.NumaraArama();
                         break;
                     }
                     default:{
